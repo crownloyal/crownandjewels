@@ -1,6 +1,24 @@
 <nav class="row">
-	<div class="one-half column"><h2>Crown&Jewels</h2></div>
-	<dir class="one-half column">Home</dir>
+	<div class="container">	
+		<div class="one-half column"><h2>Crown&Jewels</h2></div>
+		<div class="two columns">
+			{{link-to 'Home' 'index'}}
+		</div>
+		<div class="two columns">
+			{{link-to 'About' 'about'}}
+		</div>
+	</div>
 </nav>
 
+<div id="content-wrapper">
 {{outlet}}
+</div>
+
+<footer>
+	<div class="container">
+		We are Crown and Jewels and we love to travel the world.<br />
+		Join us!
+
+		<a href="://instagram.com/crownandjewels">{{fa-icon "fa-instagram"}}</a>
+	</div>
+</footer>

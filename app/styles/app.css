@@ -1,0 +1,20 @@
+/* 
+COLORS:
+#FE938C - ROT
+#E6B89C - DARK BEIGE
+#EAD2AC - BEIGE
+#9CAFB7 - HELLBLAU
+#4281A4 - DUNKELBLAU
+*/
+
+nav, footer { 
+	background: #FE938C;
+}
+nav h2 {
+	margin: 2rem 0;
+}
+
+
+#content-wrapper { 
+
+}
