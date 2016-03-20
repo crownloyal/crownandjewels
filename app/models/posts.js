@@ -1,1 +1,0 @@
-import DS from 'ember-data';
