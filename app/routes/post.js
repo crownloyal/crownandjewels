@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-	beforeModel: function() {
-		this.transitionTo('posts');
+	model(params) {
+		return this.store.find('post', params.id);
 	}
 });

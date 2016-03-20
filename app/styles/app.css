@@ -7,14 +7,62 @@ COLORS:
 #4281A4 - DUNKELBLAU
 */
 
-nav, footer { 
+/*** TYPO ***/
+@import url(https://fonts.googleapis.com/css?family=Euphoria+Script);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+
+body { font-family: 'Droid Serif', serif; }
+a { color: #4281A4;
+	text-decoration: none; }
+.active { font-weight: 700; }
+h1, h2, h3, h4, h5, h6 { 
+	margin: 0;
+	font-family: 'Raleway', sans-serif; }
+
+
+/*** POSITIONING ***/
+.container { padding: 2rem 0; }
+
+
+	/* NAVIGATION */
+nav {
 	background: #FE938C;
+	color: #FFFFFF;
 }
-nav h2 {
-	margin: 2rem 0;
-}
+nav #title { font-family: 'Euphoria Script', cursive; }
+nav .nav-link { 
+	float: right;
+	text-align: center;
+	margin: 1.5rem 0; }
+nav .nav-link a { padding: 0 1rem; }
 
-
+	/* CONTENT */
 #content-wrapper { 
 
+}
+
+	/* FOOTER*/
+footer {
+	background: #4281A4;
+	color: #FFFFFF;
+}
+footer a { color: #E6B89C; }
+footer a:hover { color: #FE938C; }
+
+
+/*** EYE CANDY ***/
+.pattern-arabesque {
+	background-image: url("http://www.transparenttextures.com/patterns/arabesque.png");
+}
+.pattern-food {
+	background-image: url("http://www.transparenttextures.com/patterns/food.png");
+}
+
+
+.pattern-tapete {
+	background-image: url('http://www.transparenttextures.com/patterns/crisp-paper-ruffles.png');
+}
+.pattern-always-grey {
+	background-image: url("http://www.transparenttextures.com/patterns/always-grey.png");
 }

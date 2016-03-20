@@ -1,0 +1,14 @@
+<div class="container">
+
+	<h4>Welcome to our world!</h4>
+
+	<section id="blog-history">
+		{{#each post as |post|}}
+			{{title}}
+			{{text-excerpt}}
+		{{else}}
+			<p>We are on adventure right now, will post later!</p>
+		{{/each}}
+	</section>
+
+</div>
