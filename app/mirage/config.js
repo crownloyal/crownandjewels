@@ -22,8 +22,8 @@ export default function() {
     { id: 2,
       title: 'Post #2',
       text: 'Yeah yeah yeah.'}]
-    }
-  })
+    };
+  });
 
   /*
     GET shorthands
