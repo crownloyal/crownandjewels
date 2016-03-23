@@ -9,9 +9,10 @@ Router.map(function() {
   this.route('about');
   this.route('login');
   
-  this.route('posts', { path: '/blog' });
-  this.route('post', { path: 'blog/:post_id' });
-  this.route('new', { path: 'blog/new' });
+  this.route('posts', { path: '/blog' }, function() {
+  	this.route('post', { path: '/:post_id' });
+  	this.route('new');
+  });
 });
 
 export default Router;

@@ -25,6 +25,23 @@ export default function() {
     };
   });
 
+ this.get('/posts/1', function() {
+    return { "post": [{ 
+      id: 1,
+      title: 'Post #1',
+      text: 'Yadda yadda yadda.'}]
+    };
+  });
+
+ this.get('/posts/2', function() {
+    return { "post": [{ 
+      id: 2,
+      title: 'Post #2',
+      text: 'Yeah yeah yeah.'}]
+    };
+  });
+
+
   /*
     GET shorthands
 
