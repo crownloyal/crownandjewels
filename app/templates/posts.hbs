@@ -3,11 +3,12 @@
 	<h4>Welcome to our world!</h4>
 
 	<section id="blog-history">
-		{{#each post as |post| }}
-		<p>We got this:</p>
-			{{id}}
-			{{post.title}}
-			{{text}}
+		{{#each post }}
+			<p>We got this:<br/>
+			{{posts.id}}<br/>
+			{{post.title}}<br/>
+			{{text}}<br/>
+			</p>
 		{{else}}
 			<p>We are on adventure right now, will post later!</p>
 		{{/each}}

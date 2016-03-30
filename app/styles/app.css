@@ -23,8 +23,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** POSITIONING ***/
 .container { padding: 2rem 0; }
-
-
+@media(max-width: 1280px){
+	.mobile-ignore {
+		display: none;
+	}
+}
 	/* NAVIGATION */
 nav {
 	background: #FE938C;
@@ -32,13 +35,20 @@ nav {
 }
 nav #title { font-family: 'Euphoria Script', cursive; }
 nav .nav-link { 
-	float: ; 
-	margin: 1.5rem 0; }
+	margin: 1.5rem 0;
+	margin-left: 4%; }
 nav .nav-link a { padding: 0 1rem; }
 
 	/* CONTENT */
-#content-wrapper { 
+#blog-page { 
+	width: 50%;
+	float: left;
 }
+
+#picture-feed {
+	width: 50%;
+}
+
 
 input, button { border: 1px solid #222; }
 input:hover, input::focus, button:hover, button::focus { border: 1px solid #EAD2AC; }

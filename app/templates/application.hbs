@@ -1,26 +1,32 @@
-<nav class="row pattern-always-grey">
-	<div class="container">	
-		<div class="two-thirds column"><h2 id="title">Crown&Jewels</h2></div>
-		<div class="one-third column nav-link">
-			{{link-to 'Blog' 'posts'}}
-			{{link-to 'About' 'about'}}
-			<a href="://instagram.com/crownandjewels">{{fa-icon "fa-instagram"}}</a>
-		</div>
-	</div>
-</nav>
+<div class="app-container">
+	<div id="blog-page">
+		<nav class="row pattern-always-grey">
+			<div class="container">	
+				<div class="one-half column"><h2 id="title">Crown&Jewels</h2></div>
+				<div class="one-half column nav-link">
+					{{link-to 'Blog' 'posts'}}
+					{{link-to 'About' 'about'}}
+					<a href="https://instagram.com/crownandjewels">{{fa-icon "fa-instagram"}}</a>
+				</div>
+			</div>
+		</nav>
 
-<div id="content-wrapper">
-{{outlet}}
+		<div id="content-wrapper">
+		{{outlet}}
+		</div>
+
+		<footer class="pattern-tapete">
+			<div class="container row">
+				<div class="one-half column">
+				We are Crown and Jewels and we love to travel the world.<br />
+				<a href="https://instagram.com/crownandjewels">Join us! {{fa-icon "fa-instagram"}}</a>
+				</div>
+				<div class="one-half column">{{link-to 'Login' 'login'}}</div>
+			</div>
+
+		</footer>
+	</div>
+	<div id="picture-feed">
+	<p> </p>
+	</div>
 </div>
-
-<footer class="pattern-tapete">
-	<div class="container row">
-		<div class="one-third column">
-		We are Crown and Jewels and we love to travel the world.<br />
-		<a href="://instagram.com/crownandjewels">Join us! {{fa-icon "fa-instagram"}}</a>
-		</div>
-		<div class="one-third column"><p> </p></div>
-		<div class="one-third column">{{link-to 'Login' 'login'}}</div>
-	</div>
-
-</footer>
