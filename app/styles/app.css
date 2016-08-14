@@ -1,4 +1,4 @@
-/* 
+/*
 COLORS:
 #FE938C - ROT
 #E6B89C - DARK BEIGE
@@ -41,8 +41,8 @@ nav .nav-link a { padding: 0 1rem; }
 
 	/* CONTENT */
 #blog-page { 
-	width: 50%;
-	float: left;
+/*	width: 50%;
+	float: left;*/
 }
 
 #picture-feed {
