@@ -10,7 +10,6 @@ Router.map(function() {
   this.route('login');
   
   this.route('posts', { path: '/blog' }, function() {
-  	this.route('post', { path: '/:post_id' });
   	this.route('new');
   });
 });
