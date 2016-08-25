@@ -21,7 +21,8 @@ export default function() {
       text: 'Yadda yadda yadda.'},
     { id: 2,
       title: 'Post #2',
-      text: 'Yeah yeah yeah.'}]
+      text: 'Yeah yeah yeah.',
+      image: 'http://lorempixel.com/400/200/sports'}]
     };
   });
 

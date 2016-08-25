@@ -33,7 +33,7 @@ nav {
 	background: #FE938C;
 	color: #FFFFFF;
 }
-nav #title { font-family: 'Euphoria Script', cursive; }
+#title { font-family: 'Euphoria Script', cursive; }
 nav .nav-link { 
 	margin: 1.5rem 0;
 	margin-left: 4%; }
