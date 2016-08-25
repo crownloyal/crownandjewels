@@ -14,7 +14,10 @@ COLORS:
 
 body { font-family: 'Droid Serif', serif; }
 a { color: #4281A4;
-	text-decoration: none; }
+	text-decoration: none;
+	transition: font-weight 0.2s;
+	transition: color 0.2s; }
+	
 .active { font-weight: 700; }
 h1, h2, h3, h4, h5, h6 { 
 	margin: 0;
@@ -33,7 +36,7 @@ nav {
 	background: #FE938C;
 	color: #FFFFFF;
 }
-#title { font-family: 'Euphoria Script', cursive; }
+.title { font-family: 'Euphoria Script', cursive; }
 nav .nav-link { 
 	margin: 1.5rem 0;
 	margin-left: 4%; }

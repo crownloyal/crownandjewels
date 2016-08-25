@@ -18,10 +18,14 @@ export default function() {
     return { "posts": [{ 
       id: 1,
       title: 'Post #1',
-      text: 'Yadda yadda yadda.'},
+      excerpt: 'Yadda',
+      text: 'Yadda yadda yadda.',
+      date: '2016-05-25T16:46:28Z'},
     { id: 2,
       title: 'Post #2',
       text: 'Yeah yeah yeah.',
+      excerpt: 'Yeah',
+      date: '2016-08-18T16:46:28Z',
       image: 'http://lorempixel.com/400/200/sports'}]
     };
   });
@@ -30,7 +34,9 @@ export default function() {
     return { "post": [{ 
       id: 1,
       title: 'Post #1',
-      text: 'Yadda yadda yadda.'}]
+      excerpt: 'Yadda',
+      text: 'Yadda yadda yadda.',
+      date: '2016-05-25T16:46:28Z' }]
     };
   });
 
@@ -38,7 +44,10 @@ export default function() {
     return { "post": [{ 
       id: 2,
       title: 'Post #2',
-      text: 'Yeah yeah yeah.'}]
+      excerpt: 'Yeah',
+      text: 'Yeah yeah yeah.',
+      date: '2016-08-18T16:46:28Z',
+      image: 'http://lorempixel.com/400/200/sports' }]
     };
   });
 
