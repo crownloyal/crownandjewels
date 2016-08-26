@@ -4,7 +4,7 @@
 
 	<section id="blog-history">
 		{{#each model as |post| }}
-			{{#link-to 'post' post.id}}<h3>{{post.title}}</h3><small class="muted">{{post.date}}</small>{{/link-to}}
+			{{#link-to 'post' post.id}}<h3>{{post.title}}</h3><small class="muted"> - {{moment-to-now post.date}}</small>{{/link-to}}
 			<p>{{post.excerpt}}</p>
 			
 		{{else}}

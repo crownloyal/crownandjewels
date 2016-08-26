@@ -1,10 +1,12 @@
-<section>
-{{#if post.image}}
+<section class="container">
+{{#if model.image}}
 	<p>Showing some Header image here</p>
 {{/if}}
 
-<h4>{{post.title}}</h4>
+<h4>{{model.title}}</h4>
 
-<p>{{post.text}}</p>
+<p><b>{{model.excerpt}}</b></p>
+
+<p>{{model.text}}</p>
 
 </section>
