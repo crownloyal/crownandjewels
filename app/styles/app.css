@@ -46,8 +46,14 @@ nav .nav-link a { padding: 0 1rem; }
 /* CONTENT */
 input, button { border: 1px solid #222; }
 input:hover, input::focus, button:hover, button::focus { border: 1px solid #EAD2AC; }
-
-#blog-intro { border: 1px solid #212121; }
+#blog-intro { 
+	border: 1px dashed #212121;
+	padding: 1rem;
+	text-align: center; }
+.profile-picture { border-radius: 50%; }
+#blog-intro img.profile-picture { 
+	margin: 0 auto;
+	display: block; }
 
 /* LOGIN */
 #login-wrapper {
@@ -67,8 +73,7 @@ input:hover, input::focus, button:hover, button::focus { border: 1px solid #EAD2
 	/* FOOTER*/
 footer {
 	background: #4281A4;
-	color: #FFFFFF;
-}
+	color: #FFFFFF; }
 footer a { color: #E6B89C; }
 footer a:hover { color: #FE938C; }
 

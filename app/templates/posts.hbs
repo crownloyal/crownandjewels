@@ -1,8 +1,8 @@
 <div class="container">
 
 	<h4>Welcome to our world!</h4>
-
-		<section id="blog-history two-thirds column">
+	<div class="row">
+		<section id="blog-history" class="two-thirds column">
 			{{#each model as |post| }}
 				{{#link-to 'post' post.id}}<h3>{{post.title}}</h3><small class="muted"> - {{moment-format post.date "MMMM Do YYYY"}}</small>{{/link-to}}
 				<p>{{post.excerpt}}</p>
@@ -11,8 +11,6 @@
 				<p>We are on adventure right now, will post later!</p>
 			{{/each}}
 		</section>
-		<section class="one-third column" id="blog-intro">
-
-		</section>
-
+		{{blog-detail-card}}
+	</div>
 </div>
