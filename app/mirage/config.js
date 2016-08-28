@@ -17,13 +17,13 @@ export default function() {
   this.get('/posts', function() {
     return { "posts": [{ 
       id: 1,
-      title: 'Post #1',
+      title: 'Paris, mon amour. ♥',
       excerpt: 'Yadda',
       text: 'Yadda yadda yadda.',
       date: '2016-05-25T16:46:28Z',
       location: 'Paris, France' },
     { id: 2,
-      title: 'Post #2',
+      title: 'Back home for Christmas.',
       text: 'Yeah yeah yeah.',
       excerpt: 'Yeah',
       date: '2016-12-18T16:46:28Z',
@@ -35,7 +35,7 @@ export default function() {
  this.get('/posts/1', function() {
     return { "post": [{ 
       id: 1,
-      title: 'Post #1',
+      title: 'Paris, mon amour. ♥',
       excerpt: 'Yadda',
       text: 'Yadda yadda yadda.',
       date: '2016-05-25T16:46:28Z',
@@ -46,7 +46,7 @@ export default function() {
  this.get('/posts/2', function() {
     return { "post": [{ 
       id: 2,
-      title: 'Post #2',
+      title: 'Back home for Christmas.',
       excerpt: 'Yeah',
       text: 'Yeah yeah yeah.',
       date: '2016-08-18T16:46:28Z',

@@ -58,7 +58,7 @@ nav .nav-link ul li a::before {
 	left: 3rem;
 	opacity: 0;
 
-	transition: opacity 0.1s;
+	transition: opacity 0.05s;
 	transition: top 0.1s ease-out; }	
 nav .nav-link ul li a.active::before { 
 	content: '•';
@@ -85,10 +85,8 @@ input:hover, input::focus, button:hover, button::focus { border: 1px solid #EAD2
     line-height: normal; }	
 .date-highlight span i { font-size: 85%; }
 
-#blog-history h3 { font-size: 5rem; }
-
 #blog-intro { 
-	border: 1px dashed #E1E1E1;
+	border: 1px dashed #4281A4;
 	padding: 1rem;
 	text-align: center; }
 .profile-picture { border-radius: 50%; }
@@ -102,8 +100,7 @@ input:hover, input::focus, button:hover, button::focus { border: 1px solid #EAD2
 	border: 1px solid #4281AA;
 	border-radius: 4px;
 	background-color: #FE938C;
-	color: #fff;
-}
+	color: #fff; }
 #login-wrapper input { color: #222; }
 #login-wrapper button {
 	color: #fff;
