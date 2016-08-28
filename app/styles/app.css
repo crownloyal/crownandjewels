@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', sans-serif; }
 .letter-head { text-align: right; }
 .center-text { text-align: center; }
 
+
 /*** POSITIONING ***/
 .container { padding: 2rem 0; }
 @media(max-width: 1280px){
@@ -46,12 +47,30 @@ nav {
 	font-family: 'Euphoria Script', cursive;
 	margin: 0; }
 .title a { color: #FFF; }
-nav .nav-link { margin: 1.5rem 0; }
+nav .nav-link ul { margin: 1.5rem 0; }
+nav .nav-link ul li { 
+	display: inline;
+	list-style-type: none; }
 nav .nav-link a { padding: 0 1rem; }
 
 /* CONTENT */
 input, button { border: 1px solid #222; }
 input:hover, input::focus, button:hover, button::focus { border: 1px solid #EAD2AC; }
+
+.date-highlight { 
+	border-radius: 50%;
+	background-color: #4281A4;
+	color: #ffffff;
+	width: 6.5rem;
+	height: 6.5rem;
+	line-height: 6.5rem; }
+.date-highlight span { 
+	display: inline-block;
+    vertical-align: middle;
+    line-height: normal; }	
+.date-highlight span i { font-size: 85%; }
+
+#blog-history h3 { font-size: 5rem; }
 
 #blog-intro { 
 	border: 1px dashed #E1E1E1;
