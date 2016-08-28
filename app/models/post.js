@@ -5,5 +5,6 @@ export default DS.Model.extend({
   excerpt: DS.attr('string'),
   text: DS.attr('string'),
   date: DS.attr('date'),
-  image: DS.attr('string')
+  image: DS.attr('string'),
+  location: DS.attr('string')
 });

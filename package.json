@@ -1,7 +1,7 @@
 {
   "name": "crownandjewels",
-  "version": "0.0.0",
-  "description": "Small description for crownandjewels goes here",
+  "version": "0.0.1",
+  "description": "Visit crownandjewels.* ",
   "private": true,
   "directories": {
     "doc": "doc",

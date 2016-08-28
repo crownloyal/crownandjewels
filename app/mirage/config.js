@@ -20,13 +20,15 @@ export default function() {
       title: 'Post #1',
       excerpt: 'Yadda',
       text: 'Yadda yadda yadda.',
-      date: '2016-05-25T16:46:28Z'},
+      date: '2016-05-25T16:46:28Z',
+      location: 'Paris, France' },
     { id: 2,
       title: 'Post #2',
       text: 'Yeah yeah yeah.',
       excerpt: 'Yeah',
       date: '2016-08-18T16:46:28Z',
-      image: 'http://lorempixel.com/400/200/sports'}]
+      image: 'http://lorempixel.com/400/200/sports',
+      location: 'Leipzig, Germany' }]
     };
   });
 
@@ -36,7 +38,8 @@ export default function() {
       title: 'Post #1',
       excerpt: 'Yadda',
       text: 'Yadda yadda yadda.',
-      date: '2016-05-25T16:46:28Z' }]
+      date: '2016-05-25T16:46:28Z',
+      location: 'Paris, France' }]
     };
   });
 
@@ -47,7 +50,8 @@ export default function() {
       excerpt: 'Yeah',
       text: 'Yeah yeah yeah.',
       date: '2016-08-18T16:46:28Z',
-      image: 'http://lorempixel.com/400/200/sports' }]
+      image: 'http://lorempixel.com/400/200/sports',
+      location: 'Leipzig, Germany' }]
     };
   });
 

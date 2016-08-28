@@ -1,11 +1,17 @@
 <section class="container">
-{{#if model.image}}
-	<p>Showing some Header image here</p>
-{{/if}}
+
+	<div class="letter-head">
+		<p>{{moment-format model.date "MMMM Do YYYY"}}
+		<br />{{model.location}}</p>
+	</div>
 
 <h4>{{model.title}}</h4>
 
 <p><b>{{model.excerpt}}</b></p>
+
+{{#if model.image}}
+	<p>Showing some Header image here</p>
+{{/if}}
 
 <p>{{model.text}}</p>
 

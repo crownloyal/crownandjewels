@@ -2,14 +2,17 @@
 
 	<h4>Welcome to our world!</h4>
 
-	<section id="blog-history">
-		{{#each model as |post| }}
-			{{#link-to 'post' post.id}}<h3>{{post.title}}</h3><small class="muted"> - {{moment-to-now post.date}}</small>{{/link-to}}
-			<p>{{post.excerpt}}</p>
-			
-		{{else}}
-			<p>We are on adventure right now, will post later!</p>
-		{{/each}}
-	</section>
+		<section id="blog-history two-thirds column">
+			{{#each model as |post| }}
+				{{#link-to 'post' post.id}}<h3>{{post.title}}</h3><small class="muted"> - {{moment-format post.date "MMMM Do YYYY"}}</small>{{/link-to}}
+				<p>{{post.excerpt}}</p>
+				
+			{{else}}
+				<p>We are on adventure right now, will post later!</p>
+			{{/each}}
+		</section>
+		<section class="one-third column" id="blog-intro">
+
+		</section>
 
 </div>
