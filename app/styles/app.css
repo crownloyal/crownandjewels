@@ -19,9 +19,7 @@ a { color: #4281A4;
 	transition: color 0.2s; }
 	
 .active { font-weight: 700; }
-h1, h2, h3, h4, h5, h6 { 
-	margin: 0;
-	font-family: 'Raleway', sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', sans-serif; }
 .letter-head { text-align: right; }
 .center-text { text-align: center; }
 
@@ -44,15 +42,17 @@ nav {
 	background: #FE938C;
 	color: #FFFFFF;
 }
-.title { font-family: 'Euphoria Script', cursive; }
-nav .nav-link { 
-	margin: 1.5rem 0;
-	margin-left: 4%; }
+.title { 
+	font-family: 'Euphoria Script', cursive;
+	margin: 0; }
+.title a { color: #FFF; }
+nav .nav-link { margin: 1.5rem 0; }
 nav .nav-link a { padding: 0 1rem; }
 
 /* CONTENT */
 input, button { border: 1px solid #222; }
 input:hover, input::focus, button:hover, button::focus { border: 1px solid #EAD2AC; }
+
 #blog-intro { 
 	border: 1px dashed #E1E1E1;
 	padding: 1rem;

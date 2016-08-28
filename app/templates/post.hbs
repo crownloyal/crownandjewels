@@ -1,4 +1,8 @@
-{{post-map model=model}}
+{{#if model.image}}
+	<p>Showing some Header image here</p>
+{{else}}
+	{{post-map model=model}}
+{{/if}}
 
 <section class="container post-container">
 
@@ -7,13 +11,11 @@
 		<br />{{model.location}}</p>
 	</div>
 
+<hr>
+
 <h4>{{model.title}}</h4>
 
 <p><b>{{model.excerpt}}</b></p>
-
-{{#if model.image}}
-	<p>Showing some Header image here</p>
-{{/if}}
 
 <p>{{model.text}}</p>
 

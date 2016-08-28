@@ -4,8 +4,10 @@
 	<div class="row">
 		<section id="blog-history" class="two-thirds column">
 			{{#each model as |post| }}
-				{{#link-to 'post' post.id}}<h3>{{post.title}}</h3><small class="muted"> - {{moment-format post.date "MMMM Do YYYY"}}</small>{{/link-to}}
-				<p>{{post.excerpt}}</p>
+				{{#link-to 'post' post.id}}
+					<div class="date-highlight">{{moment-format post.date "MMMM Do YYYY"}}</div>
+					<h3>{{post.title}}</h3>{{/link-to}}
+					<p>{{post.excerpt}}</p>
 				
 			{{else}}
 				<p>We are on adventure right now, will post later!</p>
