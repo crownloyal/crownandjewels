@@ -1,9 +1,11 @@
-<section class="container">
+<section class="container post-container">
 
 	<div class="letter-head">
 		<p>{{moment-format model.date "MMMM Do YYYY"}}
 		<br />{{model.location}}</p>
 	</div>
+
+<img class="post-map" src="https://maps.googleapis.com/maps/api/staticmap?center={{model.location}}&zoom=12&size=1080x200&key=AIzaSyDshifJnAt8UAIuakLck6kwv7IkM606jAA">	
 
 <h4>{{model.title}}</h4>
 
