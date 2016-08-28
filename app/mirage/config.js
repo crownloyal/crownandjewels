@@ -26,7 +26,7 @@ export default function() {
       title: 'Post #2',
       text: 'Yeah yeah yeah.',
       excerpt: 'Yeah',
-      date: '2016-08-18T16:46:28Z',
+      date: '2016-12-18T16:46:28Z',
       image: 'http://lorempixel.com/400/200/sports',
       location: 'Leipzig, Germany' }]
     };

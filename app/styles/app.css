@@ -15,8 +15,8 @@ COLORS:
 body { font-family: 'Droid Serif', serif; }
 a { color: #4281A4;
 	text-decoration: none;
-	transition: font-weight 0.2s;
-	transition: color 0.2s; }
+	transition: font-weight 0.4s;
+	transition: color 0.4s; }
 	
 .active { font-weight: 700; }
 h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', sans-serif; }
@@ -51,6 +51,22 @@ nav .nav-link ul { margin: 1.5rem 0; }
 nav .nav-link ul li { 
 	display: inline;
 	list-style-type: none; }
+nav .nav-link ul li a::before { 
+	content: '•';
+	position: relative;
+	top: 4.5rem;
+	left: 3rem;
+	opacity: 0;
+
+	transition: opacity 0.1s;
+	transition: top 0.1s ease-out; }	
+nav .nav-link ul li a.active::before { 
+	content: '•';
+	position: relative;
+	top: 2rem;
+	left: 3rem;
+	opacity: 1; }	
+
 nav .nav-link a { padding: 0 1rem; }
 
 /* CONTENT */
@@ -59,8 +75,7 @@ input:hover, input::focus, button:hover, button::focus { border: 1px solid #EAD2
 
 .date-highlight { 
 	border-radius: 50%;
-	background-color: #4281A4;
-	color: #ffffff;
+	border: 1px dashed #4281A4;
 	width: 6.5rem;
 	height: 6.5rem;
 	line-height: 6.5rem; }
