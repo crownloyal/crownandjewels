@@ -59,7 +59,7 @@ nav .nav-link ul li a::before {
 	opacity: 0;
 
 	transition: opacity 0.05s;
-	transition: top 0.1s ease-out; }	
+	transition: top 0.15s ease-out; }	
 nav .nav-link ul li a.active::before { 
 	content: '•';
 	position: relative;

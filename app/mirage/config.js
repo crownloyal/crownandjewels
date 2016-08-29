@@ -50,7 +50,7 @@ export default function() {
       excerpt: 'Yeah',
       text: 'Yeah yeah yeah.',
       date: '2016-08-18T16:46:28Z',
-      image: 'http://lorempixel.com/400/200/sports',
+      image: 'https://lh3.googleusercontent.com/f8hsp4M5bfkGUjYDmsu0eTdLVk7pdZjuDlLVrE6GIrNYG371IpmWpfE3g8UFdJ7fJA511jHJVEwRcEbWFUzl9rVySFsxl_w3eHMrhDJs7eokG6HZwVprbs0ji_zGWuCKv-KgD0i2kibYxG4gsolJ9FB6kzBL-cR0Kso7QHASj8-gXtpPG5UXjsnLkqslTiJXwne1CXxkCXUITa1YYR7lZZS3_ya4jlRf4nF5bAfXOtwxzw13uDNc1XfzVvRE6iBjd011_Yo36urxSZoUBWeiq8iBVbwg7EsgF-zMURtP6jeq6EGAsN_gwLbaMeCRVg6OSWpp7hi_BwjjSNXKRZ-oof-uF9nEQKhSo3J7CZUhL_VlHwjU3jmESHUOvGl6avMMntVsGZe_jM50hc9CfWInNzpGIZ-P5WwVvgt76ybGMq-bD9Zy0pJOxXMKLewdbKu1KMS39cyBDjwbTvEQr0M5A3jVQhWn_cY23IlDPEF_bpk-0cVWsE-oEUhmDbsdXhjelokVp5Le3sle2PyrOHr3Z_cK1NzI9FMXn6o3d72PRm69nyt0ceSXD77_jnuoFWxIbCwh6KQvUmXKIsPZ8-7N3If9IxycTUyei0FOWoIMRonYfI3pPg=w956-h423-no',
       location: 'Leipzig, Germany' }]
     };
   });
