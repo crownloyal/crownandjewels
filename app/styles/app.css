@@ -37,6 +37,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', sans-serif; }
 .post-map { 
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%); }
+hr { width: 25%; }
 
 /* NAVIGATION */
 nav {

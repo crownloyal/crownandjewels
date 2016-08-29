@@ -1,18 +1,33 @@
 <section class="container">
 
+	<div class="one-half column">
 	<h3>Hey Jewels!</h3>
 		
-		<p>Let's write another blog post!</p>
+		<p>Glad to have you back!
+		<br>Tell us some more about your what currently happens in your life.</p>
 
 		<form>
 			<label for="title">Enter your title here:</label>
-			<input id="title" type="text">
+			{{input id="title" type="text" value=title}}
 
-			<hr />
+			<label for="post-excerpt">Here the excerpt:</label>
+			<textarea value={{excerptField}} id="post-excerpt" {{action "updateExcerpt"}}></textarea>
 
-			<label for="post-body">And here the text:</label>
-			<textarea id="post-body" class="u-max-full-width"></textarea>
+			<hr  />
+
+			<label for="post-text">And here the text:</label>
+			<textarea value={{textField}} id="post-text" {{action "updateText" value="target.value"}}></textarea>
 		</form>
 		<button>Submit</button>
+	</div>		
 
+	<div class="one-half column">
+			<h1>Preview:</h1>
+
+			<h3>{{title}}</h3>
+
+			{{markdown-to-html excerpt}}
+
+			{{markdown-to-html text}}
+	</div>	
 </section>
